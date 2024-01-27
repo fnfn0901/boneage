@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 50px;
+}
+
+.gender,
+.Radius,
+.Ulna,
+.Metacarpal1,
+.Metacarpal3,
+.Matacarpal5,
+.ProximalPhalanx1,
+.ProximalPhalanx3,
+.proximalPhalanx5,
+.MiddlePhalanx3,
+.MiddlePhalanx5,
+.DistalPhalanx1,
+.DistalPhalanx3,
+.distalPhalanx5 {
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 80px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+p {
+  color: #333;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}

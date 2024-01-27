@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="BAC.css">
+    <title>골연령</title>
+</head>
+<body>
+
+    <div class="gender">
+        <p>성별</p>
+        <label>
+            <input type="radio" name="gender" value="male" checked>남성
+        </label>
+        <label>
+            <input type="radio" name="gender" value="female">여성
+        </label>
+    </div>
+
+    <div class="Radius">
+        <p>Radius</p>
+        <label>
+            <input type="radio" name="radius" value="A" data-score-male="0" data-score-female="0">A
+        </label>
+        <label>
+            <input type="radio" name="radius" value="B" data-score-male="16" data-score-female="23">B
+        </label>
+        <label>
+            <input type="radio" name="radius" value="C" data-score-male="21" data-score-female="30">C
+        </label>
+        <label>
+            <input type="radio" name="radius" value="D" data-score-male="30" data-score-female="44">D
+        </label>
+        <label>
+            <input type="radio" name="radius" value="E" data-score-male="39" data-score-female="56">E
+        </label>
+        <label>
+            <input type="radio" name="radius" value="F" data-score-male="59" data-score-female="78">F
+        </label>
+        <label>
+            <input type="radio" name="radius" value="G" data-score-male="87" data-score-female="114">G
+        </label>
+        <label>
+            <input type="radio" name="radius" value="H" data-score-male="138" data-score-female="160">H
+        </label>
+        <label>
+            <input type="radio" name="radius" value="I" data-score-male="213" data-score-female="218">I
+        </label>
+    </div>
+
+    <div class="Ulna">
+        <p>Ulna</p>
+        <label>
+            <input type="radio" name="ulna" value="A" data-score-male="0" data-score-female="0">A
+        </label>
+        <label>
+            <input type="radio" name="ulna" value="B" data-score-male="27" data-score-female="30">B
+        </label>
+        <label>
+            <input type="radio" name="ulna" value="C" data-score-male="30" data-score-female="33">C
+        </label>
+        <label>
+            <input type="radio" name="ulna" value="D" data-score-male="32" data-score-female="37">D
+        </label>
+        <label>
+            <input type="radio" name="ulna" value="E" data-score-male="40" data-score-female="45">E
+        </label>
+        <label>
+            <input type="radio" name="ulna" value="F" data-score-male="58" data-score-female="74">F
+        </label>
+        <label>
+            <input type="radio" name="ulna" value="G" data-score-male="107" data-score-female="118">G
+        </label>
+        <label>
+            <input type="radio" name="ulna" value="H" data-score-male="181" data-score-female="173">H
+        </label>
+    </div>
+
+    <div class="Metacarpal1">
+        <p>Metacarpal I</p>
+        <label>
+            <input type="radio" name="matacarpal1" value="A" data-score-male="0" data-score-female="0">A
+        </label>
+        <label>
+            <input type="radio" name="matacarpal1" value="B" data-score-male="6" data-score-female="8">B
+        </label>
+        <label>
+            <input type="radio" name="matacarpal1" value="C" data-score-male="9" data-score-female="12">C
+        </label>
+        <label>
+            <input type="radio" name="matacarpal1" value="D" data-score-male="14" data-score-female="18">D
+        </label>
+        <label>
+            <input type="radio" name="matacarpal1" value="E" data-score-male="21" data-score-female="24">E
+        </label>
+        <label>
+            <input type="radio" name="matacarpal1" value="F" data-score-male="26" data-score-female="31">F
+        </label>
+        <label>
+            <input type="radio" name="matacarpal1" value="G" data-score-male="36" data-score-female="43">G
+        </label>
+        <label>
+            <input type="radio" name="matacarpal1" value="H" data-score-male="49" data-score-female="53">H
+        </label>
+        <label>
+            <input type="radio" name="matacarpal1" value="I" data-score-male="67" data-score-female="67">I
+        </label>
+    </div>
+
+    <div class="Metacarpal3">
+        <p>Matacarpal III</p>
+        <label>
+            <input type="radio" name="matacarpal3" value="A" data-score-male="0" data-score-female="0">A
+        </label>
+        <label>
+            <input type="radio" name="matacarpal3" value="B" data-score-male="4" data-score-female="5">B
+        </label>
+        <label>
+            <input type="radio" name="matacarpal3" value="C" data-score-male="5" data-score-female="8">C
+        </label>
+        <label>
+            <input type="radio" name="matacarpal3" value="D" data-score-male="9" data-score-female="12">D
+        </label>
+        <label>
+            <input type="radio" name="matacarpal3" value="E" data-score-male="12" data-score-female="16">E
+        </label>
+        <label>
+            <input type="radio" name="matacarpal3" value="F" data-score-male="19" data-score-female="23">F
+        </label>
+        <label>
+            <input type="radio" name="matacarpal3" value="G" data-score-male="31" data-score-female="37">G
+        </label>
+        <label>
+            <input type="radio" name="matacarpal3" value="H" data-score-male="43" data-score-female="47">H
+        </label>
+        <label>
+            <input type="radio" name="matacarpal3" value="I" data-score-male="52" data-score-female="53">I
+        </label>
+    </div>
+
+    <div class="Matacarpal5">
+        <p>Matacarpal V</p>
+        <label>
+            <input type="radio" name="matacarpal5" value="A" data-score-male="0" data-score-female="0">A
+        </label>
+        <label>
+            <input type="radio" name="matacarpal5" value="B" data-score-male="4" data-score-female="6">B
+        </label>
+        <label>
+            <input type="radio" name="matacarpal5" value="C" data-score-male="6" data-score-female="9">C
+        </label>
+        <label>
+            <input type="radio" name="matacarpal5" value="D" data-score-male="9" data-score-female="12">D
+        </label>
+        <label>
+            <input type="radio" name="matacarpal5" value="E" data-score-male="14" data-score-female="17">E
+        </label>
+        <label>
+            <input type="radio" name="matacarpal5" value="F" data-score-male="18" data-score-female="23">F
+        </label>
+        <label>
+            <input type="radio" name="matacarpal5" value="G" data-score-male="29" data-score-female="35">G
+        </label>
+        <label>
+            <input type="radio" name="matacarpal5" value="H" data-score-male="43" data-score-female="48">H
+        </label>
+        <label>
+            <input type="radio" name="matacarpal5" value="I" data-score-male="52" data-score-female="52">I
+        </label>
+    </div>
+
+    <div class="ProximalPhalanx1">
+        <p>Proximal Phalanx I</p>
+        <label>
+            <input type="radio" name="proximalPhalanx1" value="A" data-score-male="0" data-score-female="0">A
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx1" value="B" data-score-male="7" data-score-female="9">B
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx1" value="C" data-score-male="8" data-score-female="11">C
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx1" value="D" data-score-male="11" data-score-female="14">D
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx1" value="E" data-score-male="17" data-score-female="20">E
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx1" value="F" data-score-male="26" data-score-female="31">F
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx1" value="G" data-score-male="38" data-score-female="44">G
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx1" value="H" data-score-male="52" data-score-female="56">H
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx1" value="I" data-score-male="67" data-score-female="67">I
+        </label>
+    </div>
+
+    <div class="ProximalPhalanx3">
+        <p>Proximal Phalanx III</p>
+        <label>
+            <input type="radio" name="proximalPhalanx3" value="A" data-score-male="0" data-score-female="0">A
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx3" value="B" data-score-male="4" data-score-female="5">B
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx3" value="C" data-score-male="4" data-score-female="7">C
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx3" value="D" data-score-male="9" data-score-female="12">D
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx3" value="E" data-score-male="15" data-score-female="19">E
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx3" value="F" data-score-male="23" data-score-female="27">F
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx3" value="G" data-score-male="31" data-score-female="37">G
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx3" value="H" data-score-male="40" data-score-female="44">H
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx3" value="I" data-score-male="53" data-score-female="54">I
+        </label>
+    </div>
+
+    <div class="proximalPhalanx5">
+        <p>Proximal Phalanx V</p>
+        <label>
+            <input type="radio" name="proximalPhalanx5" value="A" data-score-male="0" data-score-female="0">A
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx5" value="B" data-score-male="4" data-score-female="6">B
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx5" value="C" data-score-male="5" data-score-female="7">C
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx5" value="D" data-score-male="9" data-score-female="12">D
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx5" value="E" data-score-male="15" data-score-female="18">E
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx5" value="F" data-score-male="21" data-score-female="26">F
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx5" value="G" data-score-male="30" data-score-female="35">G
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx5" value="H" data-score-male="39" data-score-female="42">H
+        </label>
+        <label>
+            <input type="radio" name="proximalPhalanx5" value="I" data-score-male="51" data-score-female="51">I
+        </label>
+    </div>
+
+    <div class="MiddlePhalanx3">
+        <p>Middle PhalanxIII</p>
+        <label>
+            <input type="radio" name="middlePhalanx3" value="A" data-score-male="0" data-score-female="0">A
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx3" value="B" data-score-male="4" data-score-female="6">B
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx3" value="C" data-score-male="6" data-score-female="8">C
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx3" value="D" data-score-male="9" data-score-female="12">D
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx3" value="E" data-score-male="15" data-score-female="18">E
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx3" value="F" data-score-male="22" data-score-female="27">F
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx3" value="G" data-score-male="32" data-score-female="36">G
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx3" value="H" data-score-male="43" data-score-female="45">H
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx3" value="I" data-score-male="52" data-score-female="52">I
+        </label>
+    </div>
+
+    <div class="MiddlePhalanx5">
+        <p>Middle PhalanxV</p>
+        <label>
+            <input type="radio" name="middlePhalanx5" value="A" data-score-male="0" data-score-female="0">A
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx5" value="B" data-score-male="6" data-score-female="7">B
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx5" value="C" data-score-male="7" data-score-female="8">C
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx5" value="D" data-score-male="9" data-score-female="12">D
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx5" value="E" data-score-male="15" data-score-female="18">E
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx5" value="F" data-score-male="23" data-score-female="28">F
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx5" value="G" data-score-male="32" data-score-female="35">G
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx5" value="H" data-score-male="42" data-score-female="43">H
+        </label>
+        <label>
+            <input type="radio" name="middlePhalanx5" value="I" data-score-male="49" data-score-female="49">I
+        </label>
+    </div>
+
+    <div class="DistalPhalanx1">
+        <p>Distal Phalanx I</p>
+        <label>
+            <input type="radio" name="distalPhalanx1" value="A" data-score-male="0" data-score-female="0">A
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx1" value="B" data-score-male="5" data-score-female="7">B
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx1" value="C" data-score-male="6" data-score-female="9">C
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx1" value="D" data-score-male="11" data-score-female="15">D
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx1" value="E" data-score-male="17" data-score-female="22">E
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx1" value="F" data-score-male="26" data-score-female="33">F
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx1" value="G" data-score-male="38" data-score-female="48">G
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx1" value="H" data-score-male="46" data-score-female="51">H
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx1" value="I" data-score-male="66" data-score-female="68">I
+        </label>
+    </div>
+
+    <div class="DistalPhalanx3">
+        <p>Distal Phalanx III</p>
+        <label>
+            <input type="radio" name="distalPhalanx3" value="A" data-score-male="0" data-score-female="0">A
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx3" value="B" data-score-male="4" data-score-female="7">B
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx3" value="C" data-score-male="6" data-score-female="8">C
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx3" value="D" data-score-male="8" data-score-female="11">D
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx3" value="E" data-score-male="13" data-score-female="15">E
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx3" value="F" data-score-male="18" data-score-female="22">F
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx3" value="G" data-score-male="28" data-score-female="33">G
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx3" value="H" data-score-male="34" data-score-female="37">H
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx3" value="I" data-score-male="49" data-score-female="49">I
+        </label>
+    </div>
+
+    <div class="distalPhalanx5">
+        <p>Distal Phalanx V</p>
+        <label>
+            <input type="radio" name="distalPhalanx5" value="A" data-score-male="0" data-score-female="0">A
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx5" value="B" data-score-male="5" data-score-female="7">B
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx5" value="C" data-score-male="6" data-score-female="8">C
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx5" value="D" data-score-male="9" data-score-female="11">D
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx5" value="E" data-score-male="13" data-score-female="15">E
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx5" value="F" data-score-male="18" data-score-female="22">F
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx5" value="G" data-score-male="27" data-score-female="32">G
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx5" value="H" data-score-male="34" data-score-female="36">H
+        </label>
+        <label>
+            <input type="radio" name="distalPhalanx5" value="I" data-score-male="48" data-score-female="47">I
+        </label>
+    </div>
+    
+    <div id="totalScore">
+        <p id="tScore"></p>
+        <p id="boneAge"></p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
